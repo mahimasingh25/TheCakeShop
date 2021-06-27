@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <title>The Cake Shop</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark orange py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">The Cake Shop</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#categories" class="nav-link">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#customize" class="nav-link">Customize</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#questions" class="nav-link">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-light text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start" id="about">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>The <span class="text-orange">Cake</span> Shop</h1>
+                    <p class="lead my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum illo incidunt doloribus unde repudiandae in et ipsa?</p>
+                    <a class="btn text-light orange">Read More</a>
+
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block"src="images/cake1.svg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="p-5" id="categories">
+        <div class="container">
+            <h2 class="text-center text-dark mb-5">OUR CATEGORIES</h2>
+            
+            </p>
+            <div class="row text-center g-4 d-sm-flex">
+                
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="card text-dark category">
+                        <div class="card-body text-center">
+                            <img src="images/cupcake.jpg" class="img-fluid" alt="">
+                            <h3 class="card-title mb-3">
+                                Cupcakes
+                            </h3>
+                            <p class="card-text">Lorem ipsum elit.</p>
+                            
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="card text-dark">
+                        <div class="card-body text-center">
+                            <img src="images/brownies.jpg" class="img-fluid" alt="">
+                            <h3 class="card-title mb-3">
+                                Brownies
+                            </h3>
+                            <p class="card-text">Lorem ipsum elit.</p>                            
+                            
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="card text-dark">
+                        <div class="card-body text-center">
+                            <img src="images/macarons.jpg" class="img-fluid" alt="">
+                            <h3 class="card-title mb-3">
+                                Macarons
+                            </h3>
+                            <p class="card-text">Lorem ipsum elit.</p>
+                            
+                        </div>
+                    </div> 
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="card text-dark">
+                        <div class="card-body text-center">
+                            <img src="images/cake.jpg" class="img-fluid" alt="">
+                            <h3 class="card-title mb-3">
+                                Cakes
+                            </h3>
+                            <p class="card-text">Lorem ipsum elit.</p>
+                            
+                        </div>
+                    </div> 
+                </div>
+    
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Services -->
+
+    <section class="p-5 services bg-light" id="services">
+        <div class="container">
+            <div class="container">
+                <h2 class="text-center mb-5">WHY THE <span class="text-orange">CAKE</span> SHOP?</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="img-fluid w-50 d-none d-sm-block mx-auto"src="images/delivery1.svg" alt="">
+                        <p class="lead text-center m-3">5 Hours Delivery</p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <img class="img-fluid w-50 d-none d-sm-block d-xs-block mx-auto"src="images/cake4.svg" alt="">
+                        <p class="lead text-center m-3">Customized Cakes</p>
+                    </div>
+
+                    <div class="col-md-3 ">
+                        <img class="img-fluid w-50 d-none d-sm-block mx-auto"src="images/cake3.svg" alt="">
+                        <p class="lead text-center m-3">Widest Range of Cakes</p>
+                    </div>
+
+                    <div class="col-md-3">
+                        <img class="img-fluid w-50 d-none d-sm-block mx-auto"src="images/delivery2.svg" alt="">
+                        <p class="lead text-center m-3">Midnight Delivery</p>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- customize -->
+
+    <section class="p-5" id="customize">
+        <div class="container">
+            <h1 class="mb-5 text-center">Seeking for something Special?</h1>
+            <div class="d-md-flex align-items-center">
+                <img class="img-fluid d-none d-sm-block mx-auto "src="images/cake7.jpg" style="max-width:50%;" alt="">
+                <div>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" placeholder="Name">
+                        </div>
+                        <div class="col mb-3">
+                            <label class="form-label">Phone No.</label>
+                            <input type="text" class="form-control" placeholder="Phone Number">
+                        </div>
+                      </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Email address</label>
+                        <input type="email" class="form-control" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Message</label>
+                        <textarea class="form-control"  rows="3"></textarea>
+                    </div>
+
+                    <div>
+                        <button type="submit" class="btn text-light orange">Submit Form</button>
+                    </div>                
+
+                </div>
+                
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- FAQ -->
+
+    <section class="p-5 bg-light" id="questions">
+        <div class="container">
+            <h2 class="text-center mb-4">FREQUENTLY ASKED QUESTIONS</h2>
+            <div class="accordion accordion-flush" >
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse" data-bs-target="#question-1" >
+                      Stupid Question?
+                    </button>
+                  </h2>
+                  <div id="question-1" class="accordion-collapse collapse" data-bs-parent="#questions">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla veritatis corporis, numquam aliquam quidem ea debitis itaque quis ad recusandae maiores dolore vel, ducimus aut fugiat laudantium sint, obcaecati quaerat architecto sapiente dolorem animi? Dolorem cum obcaecati, nisi asperiores alias illum quo perferendis iste repellat, hic necessitatibus, consectetur perspiciatis quos.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-2" >
+                        Another Stupid Question?
+                      </button>
+                    </h2>
+                    <div id="question-2" class="accordion-collapse collapse" data-bs-parent="#questions">
+                      <div class="accordion-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla veritatis corporis, numquam aliquam quidem ea debitis itaque quis ad recusandae maiores dolore vel, ducimus aut fugiat laudantium sint, obcaecati quaerat architecto sapiente dolorem animi? Dolorem cum obcaecati, nisi asperiores alias illum quo perferendis iste repellat, hic necessitatibus, consectetur perspiciatis quos.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-3" >
+                        One More Stupid Question?
+                      </button>
+                    </h2>
+                    <div id="question-3" class="accordion-collapse collapse" data-bs-parent="#questions">
+                      <div class="accordion-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla veritatis corporis, numquam aliquam quidem ea debitis itaque quis ad recusandae maiores dolore vel, ducimus aut fugiat laudantium sint, obcaecati quaerat architecto sapiente dolorem animi? Dolorem cum obcaecati, nisi asperiores alias illum quo perferendis iste repellat, hic necessitatibus, consectetur perspiciatis quos.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#question-5" >
+                        Finally, the last stupid question?
+                      </button>
+                    </h2>
+                    <div id="question-5" class="accordion-collapse collapse" data-bs-parent="#questions">
+                      <div class="accordion-body">
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla veritatis corporis, numquam aliquam quidem ea debitis itaque quis ad recusandae maiores dolore vel, ducimus aut fugiat laudantium sint, obcaecati quaerat architecto sapiente dolorem animi? Dolorem cum obcaecati, nisi asperiores alias illum quo perferendis iste repellat, hic necessitatibus, consectetur perspiciatis quos.
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+
+    <section class="p-5" id="contact">
+        <div class="container">
+            <div class="row g-4">
+                <h2 class="text-center mb-4">VISIT US</h2>
+                <div class="col-md">
+                    
+                    <ul class="list-group lead">
+                        <li class="list-group-item bg-light">
+                            <p class="fw-bold">Main Branch</p>
+                            <p>259-Y Kaushalpuram, Ram Janaki Nagar, Basharatpur, Gorakhpur, U.P.</p>
+                        </li>
+                        <li class="list-group-item bg-light">
+                            <p class="fw-bold">Side Branch</p>
+                            <p>259-Y Kaushalpuram, Ram Janaki Nagar, Basharatpur, Gorakhpur, U.P.</p>
+                        </li>
+                        <li class="list-group-item bg-light py-4">
+                            <span class="fw-bold">Phone: </span> 9077745283
+                        </li>
+                        <li class="list-group-item bg-light py-4">
+                            <span class="fw-bold">Email: </span> mahimasingh2509@gmail.com
+                        </li>
+                    </ul> 
+                    
+                    
+                </div>
+                <div class="col-md">
+                    <div id="map">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+    <!-- Footer -->
+	
+	<footer class="p-3 orange text-white text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy; 2021 The Cake Shop</p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoibWFoaW1hc2luZ2gyNSIsImEiOiJja3FkbHo3d2EwOHFjMnBwZzBibzNsenBkIn0.zMTyTVN4aPI0DKnp0Fg4Gg';
+        var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [83.376540, 26.798650],
+        zoom: 13
+        });
+    </script>
+</body>
+</html>

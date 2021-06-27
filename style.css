@@ -1,0 +1,17 @@
+.orange{
+    background-color: #EE91BC
+}
+
+.text-orange{
+    color: #EE91BC;
+}
+
+.category:hover{
+    border: 2px, solid, #EE91BC;
+}
+
+#map{
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+}
